@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author:mochacha
-# 2020年9月7日shell脚本练习
+# 日期：2020年9月7日shell脚本练习
 
 # echo "Test"
 # name=liuxuyang
