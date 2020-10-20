@@ -27,10 +27,12 @@ filename = "/Users/apple/Desktop/yinwu.json"
 with open(filename) as get_user_data:
     data = json.load(get_user_data)
 
+data_2 = data["data"]["work"]
+
 index = 0
 id_list = []
-while index < len(data):
-    paint_dicts = data[index]["paint"]
+while index < len(data_2):
+    paint_dicts = data_2[index]["paint"]
     id = paint_dicts["id"]
     id_list.append(id)
     index += 1
