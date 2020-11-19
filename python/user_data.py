@@ -4,7 +4,7 @@
 import json
 
 # filename保存的是用户的json数据
-filename = "/Users/apple/Desktop/yinwu.json"
+filename = "/Users/apple/Desktop/1.json"
 with open(filename) as get_user_data:
     data = json.load(get_user_data)
 

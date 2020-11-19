@@ -23,6 +23,7 @@
 # 方法二
 import json
 
+# filename保存的是用户的json数据
 filename = "/Users/apple/Desktop/yinwu.json"
 with open(filename) as get_user_data:
     data = json.load(get_user_data)
